@@ -1,0 +1,15 @@
+{
+  "name": "Skills.sh Bridge",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "id": "skills-sh-main",
+      "name": "Skills.sh Official",
+      "description": "Bridge for skills.sh tools",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/skillsh/skills.sh.git"
+      }
+    }
+  ]
+}
