@@ -2,14 +2,14 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "skills-sh-bridge",
   "version": "1.0.0",
-  "description": "Bridge for skills.sh tools",
+  "description": "My bridge for community skills",
   "owner": {
     "name": "yitav44m-dot"
   },
   "plugins": [
     {
-      "name": "skills-sh-collection",
-      "description": "Collection of community skills",
+      "name": "community-skills",
+      "description": "Verified skills from the secondsky library",
       "source": {
         "type": "github",
         "owner": "secondsky",
