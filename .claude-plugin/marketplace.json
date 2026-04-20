@@ -11,9 +11,8 @@
       "name": "community-skills",
       "description": "Verified skills from the secondsky library",
       "source": {
-        "type": "github",
-        "owner": "secondsky",
-        "repo": "claude-skills"
+        "source": "github",
+        "repo": "secondsky/claude-skills"
       }
     }
   ]
