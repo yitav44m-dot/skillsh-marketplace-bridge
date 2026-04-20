@@ -1,14 +1,19 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "skills-sh-bridge",
   "version": "1.0.0",
+  "description": "Bridge for skills.sh tools",
+  "owner": {
+    "name": "yitav44m-dot"
+  },
   "plugins": [
     {
-      "id": "skills-sh-main",
-      "name": "skills-sh-official",
-      "description": "Bridge for skills.sh tools",
+      "name": "skills-sh-collection",
+      "description": "Collection of community skills",
       "source": {
-        "type": "git",
-        "url": "https://github.com/skillsh/skills.sh.git"
+        "type": "github",
+        "owner": "secondsky",
+        "repo": "claude-skills"
       }
     }
   ]
