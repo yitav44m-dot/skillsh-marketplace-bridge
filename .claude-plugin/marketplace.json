@@ -2,7 +2,7 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "skills-sh-bridge",
   "version": "1.0.0",
-  "description": "Bridge for community skills",
+  "description": "My bridge for community skills",
   "owner": {
     "name": "yitav44m-dot"
   },
